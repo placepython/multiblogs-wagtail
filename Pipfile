@@ -9,7 +9,6 @@ wagtail = "*"
 django-extensions = "*"
 django-crispy-forms = "*"
 crispy-tailwind = "*"
-pywatchman = "*"
 django-browser-reload = "*"
 
 [dev-packages]

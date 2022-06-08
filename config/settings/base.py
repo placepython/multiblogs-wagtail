@@ -71,7 +71,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            BASE_DIR / "templates",
+            APPS_DIR / "_templates",
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -141,7 +141,7 @@ STATICFILES_FINDERS = [
 ]
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    APPS_DIR / "_static",
 ]
 
 # ManifestStaticFilesStorage is recommended in production, to prevent outdated
