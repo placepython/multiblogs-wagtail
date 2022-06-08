@@ -1,0 +1,8 @@
+.venv
+env
+venv
+
+db.sqlite3
+
+.vscode
+.idea
